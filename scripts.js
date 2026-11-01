@@ -70,3 +70,21 @@ $("#prepend").click(function() {
 $("#remove").click(function() {
     $("#list li:last-child").remove();
 })
+
+$("#ChgImg").click(function() {
+
+    $("#horse").attr("src", "https://i.pinimg.com/736x/51/4c/11/514c11a836fc1518b432e3e894125ff7.jpg");
+
+})
+
+$("#resetImg").click(function() {
+
+    $("#horse").attr("src", "https://i.pinimg.com/736x/67/ed/0f/67ed0f58496c94e0f26bfef7fae9765c.jpg");})
+
+
+$("#changeLink").click(function() {
+
+    $("#newLink").attr("href", "https://vk.ru/feed");
+    $("#newLink").text("VK");
+})
+    
