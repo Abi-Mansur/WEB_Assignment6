@@ -110,3 +110,26 @@ $("#btn8").click(function() {
         left: "200px"
     }, 1000);
 });
+
+$("#btn9").click(function() {
+    $("#box9")
+        .animate({left: "200px"}, 1000)
+        .animate({top: "200px"}, 1000)
+        .animate({width: "50px", height: "50px"}, 1000)
+        .animate({
+            left: "0px",
+            top: "0px",
+            width: "100px",
+            height: "100px"
+        }, 1000);
+});
+
+$("#btn10").click(function() {
+    $("#box10").animate({
+        opacity: 0.3,
+        width: "200px",
+        height: "200px",
+        left: "200px",
+        top: "100px"
+    }, 1000);
+});

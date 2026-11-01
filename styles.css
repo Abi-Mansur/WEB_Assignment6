@@ -77,3 +77,19 @@ li {
     position: relative;
     margin: auto;
 }
+
+#box9 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    margin: 20px auto;
+}
+
+#box10 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    margin: 20px auto;
+}
