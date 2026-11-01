@@ -87,4 +87,18 @@ $("#changeLink").click(function() {
     $("#newLink").attr("href", "https://vk.ru/feed");
     $("#newLink").text("VK");
 })
-    
+
+
+$("#name").on("input", function() {
+
+    var v = $(this).val();
+    $("#liveName").text("you typed: " + v);
+
+})
+
+$("#email").on("input", function() {
+
+    var v = $(this).val();
+    $("#liveEmail").text("you typed: " + v);
+
+})
