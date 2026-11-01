@@ -1,0 +1,62 @@
+Part 1. Getting Started with jQuery
+
+Task 0. Setup
+•	Include jQuery from a CDN.
+•	Write a $(document.ready() function.
+•	Test by printing “jQuery is ready!” in the console.
+
+Task 1. Selectors & CSS
+•	Select elements by ID, class, and tag.
+•	Change their content with .text() and .html().
+•	Change styles dynamically with .css().
+
+
+Part 2. jQuery Effects
+
+Task 2. Visibility Methods
+•	Create a paragraph and two buttons: Hide and Show.
+•	Use .hide(), .show(), and .toggle().
+
+Task 3. Fade Methods
+•	Add an image and use .fadeIn(), .fadeOut(), .fadeToggle().
+
+Task 4. Slide Methods
+•	Create a collapsible panel and control it with .slideUp(), .slideDown(), .slideToggle().
+
+
+Part 3. DOM Manipulation with jQuery
+
+Task 5. Add & Remove Elements
+•	Create a list with an “Add Item” and “Remove Item” button.
+•	Use .append(), .prepend(), .remove().
+
+Task 6. Modifying Attributes
+•	Add a button that changes an image’s src attribute when clicked.
+•	Add another button that changes a link’s href dynamically.
+
+Task 7. Form Interaction
+•	Create a form with inputs for Name and Email.
+•	When the user types, display their input live below the form using .val() and .text().
+
+
+Part 4. Animations
+
+Task 8. Basic Animation
+•	Animate a square <div>: increase its size and change position using .animate().
+
+Task 9. Sequential Animations
+•	Animate the box step by step (move right → move down → shrink → return to original).
+
+Task 10. Combined Animation
+•	Combine opacity, size, and movement into one .animate() call.
+
+
+Part 5. Mini Project
+
+Task 11. Interactive jQuery Project
+Choose one mini project to complete:
+1.	Image Gallery: Thumbnails fade in/out and enlarge on click.
+2.	Accordion Menu: Sections expand/collapse with slide animations.
+3.	Bouncing Ball: Animate a ball that moves across the screen and “bounces” back.
+
+
