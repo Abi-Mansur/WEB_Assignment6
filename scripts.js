@@ -102,3 +102,11 @@ $("#email").on("input", function() {
     $("#liveEmail").text("you typed: " + v);
 
 })
+
+$("#btn8").click(function() {
+    $("#box8").animate({
+        width: "200px",
+        height: "200px",
+        left: "200px"
+    }, 1000);
+});

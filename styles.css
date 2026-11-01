@@ -68,3 +68,12 @@ button {
 li {
     list-style-type: none;
 }
+
+
+#box8 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    margin: auto;
+}
