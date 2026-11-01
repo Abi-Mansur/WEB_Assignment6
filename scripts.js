@@ -16,4 +16,16 @@ $("#btn").click(function() {
         $(".two").text("changing by class");
         $("h3").text("changing by tag");
         $("h3").css("color", "");
-    });
+});
+
+
+$("#show").click(function() {
+    $("#task2").show();
+})
+
+$("#hide").click(function() {
+    $("#task2").hide();
+})
+$("#toggle").click(function() {
+    $("#task2").toggle();
+})

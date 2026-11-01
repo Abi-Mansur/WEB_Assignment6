@@ -38,3 +38,14 @@ a:hover {
 div {
     text-align: center;
 }
+
+#task2 {
+    font-size: 20px;
+}
+
+button {
+    padding: 5px 20px;
+    font-size: 15px;
+    margin: 4px;
+    border-radius: 5px;
+}
