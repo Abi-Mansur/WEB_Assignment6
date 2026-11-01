@@ -54,3 +54,11 @@ button {
     margin-top: 40px;
     border-radius: 10px;
 }
+
+.lol{
+    border: solid 1px black;
+    padding: 10px;
+    max-width: 30%;
+    margin: 1   0px auto;
+    border-radius: 10px;
+}

@@ -43,3 +43,16 @@ $("#fadeout").click(function() {
 $("#fadetoggle").click(function() {
     $("#img").fadeToggle();
 })
+
+
+$("#slideup").click(function() {
+    $("#panel").slideUp();
+})
+    
+$("#slidedown").click(function() {
+    $("#panel").slideDown();
+})  
+
+$("#slidetoggle").click(function() {
+    $("#panel").slideToggle();
+})
