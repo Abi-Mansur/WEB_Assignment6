@@ -29,3 +29,17 @@ $("#hide").click(function() {
 $("#toggle").click(function() {
     $("#task2").toggle();
 })
+
+
+
+$("#fadein").click(function() {
+    $("#img").fadeIn();
+})
+
+$("#fadeout").click(function() {
+    $("#img").fadeOut();
+})
+
+$("#fadetoggle").click(function() {
+    $("#img").fadeToggle();
+})
