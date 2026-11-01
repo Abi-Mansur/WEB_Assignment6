@@ -133,3 +133,30 @@ $("#btn10").click(function() {
         top: "100px"
     }, 1000);
 });
+
+
+
+
+
+
+
+
+
+
+$(".thumbnail").click(function() {
+
+        var imageSrc = $(this).attr("src");
+
+        $("#preview").fadeOut(300, function() {
+
+            $("#bigImage").attr("src", imageSrc);
+
+            $("#preview").fadeIn(500);
+
+        });
+
+    });
+
+    $("#bigImage").click(function() {
+        $("#preview").fadeOut(500);
+    });

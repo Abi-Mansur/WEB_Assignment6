@@ -93,3 +93,29 @@ li {
     position: relative;
     margin: 20px auto;
 }
+
+
+
+
+.gallery {
+    display: flex;
+    gap: 10px;
+}
+
+.thumbnail {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: auto;
+
+}
+
+#preview {
+    display: none;
+    margin-top: 30px;
+}
+
+#bigImage {
+    width: 500px;
+    max-width: 100%;
+}
