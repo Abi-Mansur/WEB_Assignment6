@@ -56,3 +56,17 @@ $("#slidedown").click(function() {
 $("#slidetoggle").click(function() {
     $("#panel").slideToggle();
 })
+
+
+$("#append").click(function() {
+
+    $("#list").append("<li>Appended item</li>");
+})
+
+$("#prepend").click(function() {
+    $("#list").prepend("<li>Prepended item</li>");
+})
+
+$("#remove").click(function() {
+    $("#list li:last-child").remove();
+})
